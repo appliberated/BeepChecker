@@ -55,15 +55,15 @@ Unicode True
 
 ;Version Information
 
-  VIProductVersion "2.1.1.27"
+  VIProductVersion "2.1.1.28"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "BeepChecker"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "Play, test or learn the beeps of your PC"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Appliberated"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalTrademarks" ""
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright © 2013-2020 Appliberated (https://www.appliberated.com)"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright © 2013-2021 Appliberated (https://www.appliberated.com)"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "BeepChecker Installer"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.1.1.27"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.1.1.27"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "2.1.1.28"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "2.1.1.28"
 
 ;--------------------------------------
 
@@ -84,7 +84,7 @@ Section
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S"
   
-  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.1.1.27"
+  WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayVersion" "2.1.1.28"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "DisplayIcon" "$\"$INSTDIR\beepchecker.exe$\""
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "EstimatedSize" "102"
   WriteRegStr   HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\BeepChecker" "HelpLink" "https://www.appliberated.com/beepchecker/"
